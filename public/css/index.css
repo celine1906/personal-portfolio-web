@@ -1,0 +1,343 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+    /* Add other styles as needed */
+}
+
+#bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover; /* Apply the blur effect */
+    z-index: -1; /* Ensure the blurred background stays behind other content */
+}
+
+div#trans-box {
+    width:90%;
+    height:80vh;
+    margin: auto;
+    margin-top: 7%;
+    background-color: rgba(230, 203, 247, 0.6);
+    border: 3px solid rgb(254, 244, 173);
+    z-index: -1;
+}
+
+div#trans-box p {
+    text-justify: center;
+    font-family: "Josefin Sans", sans-serif;
+    z-index: 100;
+    opacity: 1;
+}
+
+
+
+.container-fluid {
+    font-family: "Cinzel", serif;
+    font-size: 18px;
+}
+
+#tulisan {
+    padding-top: 13%;
+    padding-left: 5%;
+}
+
+#tulisan p {
+    color:black;
+    font-size:30px;
+}
+
+#tulisan h1 {
+    color:rgb(254, 244, 173);
+    font-size:60px;
+}
+
+
+#tulisan span a {
+    display: inline-block;
+    /* vertical-align: middle; */
+    /* margin-left: 10px; */
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-top: 7px;
+
+}
+
+#tulisan span {
+    border-radius: 7px;
+    background-color: transparent;
+    transition: margin-left 1s ease-in;
+    padding: 7px;
+}
+
+#tulisan span:hover {
+    background-color: pink;
+}
+
+#tulisan span i {
+    margin-right: 10px;
+}
+
+#tulisan span i {
+    margin-right: 5px; /* Atur margin jika perlu */
+}
+
+/* .contact {
+    font-size: 15px;
+} */
+
+.text-border {
+    display: inline-block; /* Agar efek border berlaku di sekeliling teks */
+    border-bottom: 2px solid transparent; /* Set border awal dengan ketebalan 2px dan transparan */
+    transition: border-bottom-color 0.3s ease; /* Atur transisi untuk border warna dengan durasi 0.3s dan efek percepatan */
+}
+
+.text-border:hover {
+    border-bottom-color: #333; /* Set warna border saat dihover */
+}
+
+
+#header img {
+    width:35%;
+    margin-left:860px;
+    margin-top:-472px;
+    border: 10px solid rgb(254, 244, 173);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom: transparent;
+}
+
+/* img:hover {
+    box-shadow: 5px solid salmon;
+} */
+.nav-link:hover {
+    color: plum;
+}
+
+.nav-item.active {
+    background-color: palevioletred;
+    border-radius: 10px;
+}
+
+.nav-item.active a {
+    color: white;
+}
+
+.nav-item a.active {
+    color: white;
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+
+#background {
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(254, 244, 173), #E6CBF7);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.navbar-nav {
+    margin-right: 100px;
+}
+.contents h1 {
+    margin-top: 100px;
+    color: rgb(68, 68, 173);
+    font-family: "Cinzel", serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.contents i {
+    margin-right: 15px;
+}
+
+.contents .container {
+    font-family: "Lilita One", sans-serif;
+  font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.contents {
+    padding: 50px;
+}
+
+.nav-font {
+    text-align: center;
+}
+
+.card {
+    width: 85%;
+    height: 100%;
+    margin:auto;
+    margin-top: 20px;
+    background-color: #b3b6e3;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px #536686;
+    transition: transform 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+    box-shadow: none;
+}
+
+.card-body {
+    color: whitesmoke;
+}
+
+.vertical {
+    width: 4px;
+    height: 100%;
+    background-color: rgb(254, 244, 173);
+    transform:rotate(180deg);
+    position: relative;
+    z-index: 1;
+}
+
+.dots {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid transparent; /* Atur border solid transparan */
+    box-shadow: 0 0 10px #a244dc, 0 0 20px #a244dc; /* Atur efek box shadow dengan warna neon */
+    background-color: #E6CBF7;
+    right:6px;
+    top:-50px;
+    position: relative;
+    z-index: 3;
+}
+
+.dots:hover p {
+    color: #333;
+}
+
+.text-hover:hover p {
+    color: #333;
+}
+
+#carousel-box {
+    border: 5px solid black;
+    padding: 10px;
+    /* padding-left: 100px; */
+    width: 50%;
+}
+
+.content-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.content-flex > div {
+    display: flex;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.btn {
+    margin: auto;
+}
+
+.skill {
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #E6CBF7;
+  }
+
+  .circle-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: transparent; /* warna yang menunjukkan tingkat keterampilan */
+
+  }
+
+  .circle:hover .circle-inner {
+    background-color: #b43bff;
+    transition: 1s ease-out;
+    /* transform: translateX(-50%); */
+  }
+
+  .circle:hover .circle-text {
+    color: white;
+  }
+
+  .circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: rgb(16, 54, 137);
+  }
+
+
+  .skill-name {
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    /* right: 50%; */
+    color: rgb(254, 244, 173);
+  }
+
+  .carousel-item img {
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+}
+
+.carousel-item .carousel-caption h5 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.carousel-item .carousel-caption {
+    transform: translateY(0px);
+    transition: 0.5s ease-in-out;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.05);
+    filter: blur(7px);
+    z-index: 2;
+    transition: 0.5s ease-in;
+}
+
+.carousel-caption {
+    color: transparent;
+}
+
+.carousel-item:hover .carousel-caption {
+    color: white;
+    z-index: 20;
+    transform: translateY(-80px);
+    transition: 0.5s ease-in;
+}
+
+
