@@ -5,6 +5,15 @@
     <h1 class="nav-font">
        Login
     </h1>
+    @if ($errors->any())
+    <div class="alert alert-danger" style="width: 60%;margin:auto">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li type="none">{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
     <div class="card">
         <div class="card-body container">
                     <form action="{{ route('login.process')}}" method="POST">

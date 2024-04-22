@@ -59,8 +59,6 @@ div#trans-box p {
 
 #tulisan span a {
     display: inline-block;
-    /* vertical-align: middle; */
-    /* margin-left: 10px; */
     font-size: 20px;
     text-decoration: none;
     color: black;
@@ -84,12 +82,8 @@ div#trans-box p {
 }
 
 #tulisan span i {
-    margin-right: 5px; /* Atur margin jika perlu */
+    margin-right: 5px;
 }
-
-/* .contact {
-    font-size: 15px;
-} */
 
 .text-border {
     display: inline-block; /* Agar efek border berlaku di sekeliling teks */
@@ -112,9 +106,6 @@ div#trans-box p {
     border-bottom: transparent;
 }
 
-/* img:hover {
-    box-shadow: 5px solid salmon;
-} */
 .nav-link:hover {
     color: plum;
 }

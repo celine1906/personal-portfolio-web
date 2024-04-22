@@ -17,7 +17,7 @@ class LoginController extends Controller
             return redirect()->intended('/home'); // Redirect ke halaman utama
         } else {
             // Autentikasi gagal
-            return redirect()->route('login')->withErrors(['message'=>'User not found'])->withInput();
+            return redirect('/login')->withErrors(['message'=>'Invalid Email or Password'])->withInput();
         }
     }
 
